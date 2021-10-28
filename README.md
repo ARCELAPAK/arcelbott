@@ -20,7 +20,6 @@ Simpel WhatsApp Bot
 > cd arcelbott
 > npm start
 
-
 ```
 
 ---------
@@ -37,8 +36,6 @@ Simpel WhatsApp Bot
 > cd arcelbott 
 > npm install
 
-
-
 ```
 
 ---------
@@ -47,8 +44,6 @@ Simpel WhatsApp Bot
 
 ```bash
 > node . [<session name>] (session name is optional)
-
-
 
 ```
 
