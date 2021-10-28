@@ -1,11 +1,11 @@
-# wabot-adi
+# arcelbott
 
 Simpel WhatsApp Bot
 
 ## FOR DEPLOY HEROKU USER
 
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/ARCELAPAK/arcelbot"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/ARCELAPAK/arcelbott"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
 
 
 ## FOR TERMUX USER
@@ -17,9 +17,8 @@ Simpel WhatsApp Bot
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > git clone https://github.com/ARCELAPAK/arcelbot
-> cd arcelbot
-> npm install
-> node adi.js
+> cd arcelbott
+> npm start
 ```
 
 ---------
@@ -32,8 +31,8 @@ Simpel WhatsApp Bot
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php) (if nulis want work,  checklist columns 1,2,3,5,6)
 
 ```
-> git clone https://github.com/ARCELAPAK/arcelbot
-> cd wabot-adi 
+> git clone https://github.com/ARCELAPAK/arcelbott
+> cd arcelbott 
 > npm install
 ```
 
@@ -45,5 +44,7 @@ Simpel WhatsApp Bot
 > node . [<session name>] (session name is optional)
 ```
 
-#### Powered By : [`XTEAM`](https://api.xteam.xyz)
+#### Partner VinzBoT
+             Adi
+                  
 
