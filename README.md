@@ -19,6 +19,8 @@ Simpel WhatsApp Bot
 > git clone https://github.com/ARCELAPAK/arcelbot
 > cd arcelbott
 > npm start
+
+
 ```
 
 ---------
@@ -34,6 +36,9 @@ Simpel WhatsApp Bot
 > git clone https://github.com/ARCELAPAK/arcelbott
 > cd arcelbott 
 > npm install
+
+
+
 ```
 
 ---------
@@ -42,9 +47,12 @@ Simpel WhatsApp Bot
 
 ```bash
 > node . [<session name>] (session name is optional)
+
+
+
 ```
 
-#### Partner VinzBoT
-             Adi
+#### Partner VinzBoT & Adi
+             
                   
 
