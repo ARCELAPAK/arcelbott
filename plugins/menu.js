@@ -77,6 +77,8 @@ let pantek = 'https://a.uguu.se/GrttsiUy.jpg'
     let tags = {
       'main': 'Main',
       'info': 'INGFO',
+      'anti': 'ANTI MENU',
+      'broadcast': 'BROADCAST MENU',
       'absen': 'ABSEN MENU',
       'rpg': 'RPG',
       'game': 'GAME MENU',
