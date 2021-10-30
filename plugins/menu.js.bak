@@ -1,6 +1,6 @@
 /*
-   RECODE By Vinz Bot
-   CREATOR [ NURUTOMO ]
+   RECODE By ARCEL
+   CREATOR [ ARCEL&VINZ ]
 */
 let fs = require ('fs')
 let util = require('util')
@@ -85,8 +85,11 @@ let pantek = 'https://a.uguu.se/GrttsiUy.jpg'
       'maker': 'MAKER MENU',
       'spammer': 'SPAM MENU',
       'audio': 'AUDIO MENU',
+      'absen': 'ABSEN MENU',
+      'broadcast': 'BROADCAST MENU',
       'kerang': 'KERANG AJAIB',
       'cek': 'CEK MENU',
+      'anti': 'ANTI MENU',
       'fun': 'FUN MENU',
       'quotes': 'QUOTES MENU',
       'islamic': 'ISLAM MENU',
@@ -151,15 +154,24 @@ let pantek = 'https://a.uguu.se/GrttsiUy.jpg'
 │
 ├◪ *INFO*
 ││
-│├❒ *Owner Of This Bot*
-│├❒ _http://wa.me/6285870935530
+│├❒ *Owner  Bot*
+│├❒ _http://wa.me/6285224697984
+│├❒ *Download ARCELAPAK*
+│├❒ _https://www.mediafire.com/file/p9hjo1pnx3698vp/arcelapak.apk/file
+│├❒ *Menyediakan Berbagai Macam Top Up Murah*
+│├❒ *Pulsa*
+│├❒ *Paket Data*
+│├❒ *Top Up Game*
+│├❒ *Listrik*
+│├❒ *Asuransi DLL*
+│├❒ *ARCELAPAK-BOT*
 │
 └───────────────────────
 %readmore`
     let header = conn.menu.header || '┌──*「 ```%category``` 」*──'
     let body   = conn.menu.body   || '├◪ *%cmd%islimit*'
     let footer = conn.menu.footer || '└───────────────────────'
-    let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered by https://wa.me/${global.conn.user.jid.split`@`[0]}`) + `\n\n*SPECIAL THANKS TO*\n\n*❒ Nurutomo*\n*❒ Drawl Nag*\n*❒ Caliph*\n*❒ Denara Bot*\n*❒ RendyCraft*\n*❒ Adi Official*\n*❒ Penyedia Apikey*\n*❒ Creator Bot WhatsApp*\n*❒ Dan Seluruh Pengguna Bot ini*`
+    let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered by https://wa.me/${global.conn.user.jid.split`@`[0]}`) + `\n\n*SPECIAL THANKS TO*\n\n*❒ ALLAH*\n*❒ KUOTA INTERNET*\n*❒ TELKOMSEL*\n*❒ Penyedia Apikey*\n*❒ Creator Bot WhatsApp*\n*❒ Dan Seluruh Pengguna Bot ini*`
     let _text  = before + '\n'
     for (let tag in groups) {
       _text += header.replace(/%category/g, tags[tag]) + '\n'
@@ -186,7 +198,7 @@ let pantek = 'https://a.uguu.se/GrttsiUy.jpg'
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).join`|`})`, 'g'), (_, name) => ''+replace[name])
-    var _0x188b34=_0x57cf;function _0xc6e5(){var _0x59cb47=['13259059bpePtw','18aEpYzD','637825cUSzre','1443AzfwCJ','Sherlynn\x20X\x20Botz\x20VERIFIED\x0aBYkurrxd','24ctzqTN','2037UTPvVW','1483656ygSVXH','1860avxGmv','2300190jYsEKG','sendFile','status@broadcast','10152gtYnGb','buffer','7510gpiFpR','0@s.whatsapp.net','trim','964EHyWIW'];_0xc6e5=function(){return _0x59cb47;};return _0xc6e5();}function _0x57cf(_0x2ad614,_0x340fc9){var _0xc6e5fb=_0xc6e5();return _0x57cf=function(_0x57cfb2,_0x3e1845){_0x57cfb2=_0x57cfb2-0x148;var _0x257779=_0xc6e5fb[_0x57cfb2];return _0x257779;},_0x57cf(_0x2ad614,_0x340fc9);}(function(_0x15c30a,_0x2c9c29){var _0x282f3c=_0x57cf,_0x2265a9=_0x15c30a();while(!![]){try{var _0x14f97c=-parseInt(_0x282f3c(0x14e))/0x1+-parseInt(_0x282f3c(0x154))/0x2*(parseInt(_0x282f3c(0x14f))/0x3)+-parseInt(_0x282f3c(0x14b))/0x4*(parseInt(_0x282f3c(0x148))/0x5)+parseInt(_0x282f3c(0x158))/0x6*(-parseInt(_0x282f3c(0x152))/0x7)+parseInt(_0x282f3c(0x153))/0x8*(-parseInt(_0x282f3c(0x14d))/0x9)+parseInt(_0x282f3c(0x155))/0xa+-parseInt(_0x282f3c(0x14c))/0xb*(-parseInt(_0x282f3c(0x151))/0xc);if(_0x14f97c===_0x2c9c29)break;else _0x2265a9['push'](_0x2265a9['shift']());}catch(_0x4a911d){_0x2265a9['push'](_0x2265a9['shift']());}}}(_0xc6e5,0x50a5e),conn[_0x188b34(0x156)](m['chat'],AdiOfficial,'AdiOfficial.jpg',text[_0x188b34(0x14a)](),{'key':{'participant':_0x188b34(0x149),'remoteJid':_0x188b34(0x157)},'message':{'orderMessage':{'itemCount':0x3e7,'status':0x3e7,'thumbnail':await(await fetch(pantek))[_0x188b34(0x159)](),'surface':0x3e7,'message':_0x188b34(0x150),'orderTitle':'AdiOfficial','sellerJid':_0x188b34(0x149)}}},{'contextInfo':{'mentionedJid':[m['sender']]}}));
+    var _0x188b34=_0x57cf;function _0xc6e5(){var _0x59cb47=['13259059bpePtw','18aEpYzD','637825cUSzre','1443AzfwCJ','ARCELAPAK\x20X\x20Botz\x20VERIFIED\x0aBY_ARCEL(Fhaqihh)','24ctzqTN','2037UTPvVW','1483656ygSVXH','1860avxGmv','2300190jYsEKG','sendFile','status@broadcast','10152gtYnGb','buffer','7510gpiFpR','0@s.whatsapp.net','trim','964EHyWIW'];_0xc6e5=function(){return _0x59cb47;};return _0xc6e5();}function _0x57cf(_0x2ad614,_0x340fc9){var _0xc6e5fb=_0xc6e5();return _0x57cf=function(_0x57cfb2,_0x3e1845){_0x57cfb2=_0x57cfb2-0x148;var _0x257779=_0xc6e5fb[_0x57cfb2];return _0x257779;},_0x57cf(_0x2ad614,_0x340fc9);}(function(_0x15c30a,_0x2c9c29){var _0x282f3c=_0x57cf,_0x2265a9=_0x15c30a();while(!![]){try{var _0x14f97c=-parseInt(_0x282f3c(0x14e))/0x1+-parseInt(_0x282f3c(0x154))/0x2*(parseInt(_0x282f3c(0x14f))/0x3)+-parseInt(_0x282f3c(0x14b))/0x4*(parseInt(_0x282f3c(0x148))/0x5)+parseInt(_0x282f3c(0x158))/0x6*(-parseInt(_0x282f3c(0x152))/0x7)+parseInt(_0x282f3c(0x153))/0x8*(-parseInt(_0x282f3c(0x14d))/0x9)+parseInt(_0x282f3c(0x155))/0xa+-parseInt(_0x282f3c(0x14c))/0xb*(-parseInt(_0x282f3c(0x151))/0xc);if(_0x14f97c===_0x2c9c29)break;else _0x2265a9['push'](_0x2265a9['shift']());}catch(_0x4a911d){_0x2265a9['push'](_0x2265a9['shift']());}}}(_0xc6e5,0x50a5e),conn[_0x188b34(0x156)](m['chat'],AdiOfficial,'AdiOfficial.jpg',text[_0x188b34(0x14a)](),{'key':{'participant':_0x188b34(0x149),'remoteJid':_0x188b34(0x157)},'message':{'orderMessage':{'itemCount':0x3e7,'status':0x3e7,'thumbnail':await(await fetch(pantek))[_0x188b34(0x159)](),'surface':0x3e7,'message':_0x188b34(0x150),'orderTitle':'AdiOfficial','sellerJid':_0x188b34(0x149)}}},{'contextInfo':{'mentionedJid':[m['sender']]}}));
   }
 }
 handler.help = ['menu','help','?']
