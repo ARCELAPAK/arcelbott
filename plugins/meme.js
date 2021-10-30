@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn, args }) => {
-  let res = await fetch(`https://recoders-area.caliph.repl.co/api/random/meme?6N8tIK95=${APIKeys["https://recoders-area.caliph.repl.co"]}`)
+  let res = await fetch(`https://recoders-area.caliph.repl.co/api/random/meme?=${APIKeys["https://recoders-area.caliph.repl.co"]}`)
   let json = await res.json()
   conn.sendFile(m.chat, json.url, `meme`, `${json.title}`, m, false)
 }
