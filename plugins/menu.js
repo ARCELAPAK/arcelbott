@@ -77,6 +77,7 @@ let pantek = 'https://a.uguu.se/GrttsiUy.jpg'
     let tags = {
       'main': 'Main',
       'info': 'INGFO',
+      'absen': 'ABSEN MENU',
       'rpg': 'RPG',
       'game': 'GAME MENU',
       'xp': 'EXP & LIMIT',
@@ -85,11 +86,8 @@ let pantek = 'https://a.uguu.se/GrttsiUy.jpg'
       'maker': 'MAKER MENU',
       'spammer': 'SPAM MENU',
       'audio': 'AUDIO MENU',
-      'absen': 'ABSEN MENU',
-      'broadcast': 'BROADCAST MENU',
       'kerang': 'KERANG AJAIB',
       'cek': 'CEK MENU',
-      'anti': 'ANTI MENU',
       'fun': 'FUN MENU',
       'quotes': 'QUOTES MENU',
       'islamic': 'ISLAM MENU',
@@ -106,7 +104,6 @@ let pantek = 'https://a.uguu.se/GrttsiUy.jpg'
       'jadibot': 'JADI BOT',
       'host': 'HOST',
       'advanced': 'EVAL',
-      '': 'NO CATEGORY',
     }
     for (let plugin of Object.values(global.plugins))
       if (plugin && 'tags' in plugin)
