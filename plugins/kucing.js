@@ -5,7 +5,7 @@ let handler = async(m, { conn, text }) => {
   await m.reply('Searching...')
     let items = ["Kucing", "Kucing Oren", "Kucing Putih", "Kucing Hitam", "Kucing Aestestic", "Kucing Keren"];
     let meong = items[Math.floor(Math.random() * items.length)];
-    let url = "https://fdciabdul.tech/api/pinterest?keyword=" + meong;
+    let url = "https://raw.githubusercontent.com/ArugaZ/grabbed-results/main/random/kucing/' + args[0] + '.txt"
     let str = `
 Bagus Gak Kucing Nye?
 `.trim()
